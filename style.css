@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    background-color: green;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.task-list {
+    width: 500px;
+    margin: 40px;
+}
+
+.task {
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+}
+
+.remove-task {
+    margin-left: auto;
+    display: block;
+    border: none;
+    background: red;
+    color: white;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+}
